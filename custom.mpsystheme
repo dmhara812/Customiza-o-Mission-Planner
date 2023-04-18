@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeColorTable xnlns:xsd="http://www.w3.org/2001/XMLSchema" xnlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<strThemeName>lartest.mpusertheme</strThemeName>
+	<Colors>
+		<ThemeColor>
+			<strColorItemname>Backgorund<strColorItemName>
+			<clrColor web="262728" />
+			<strVariableName>BGColor</strVariableName>
+		</ThemeColor>
+		
