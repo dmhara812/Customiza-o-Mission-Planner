@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <_BAUD>115200</_BAUD>
+    <AACheck2>True</AACheck2>
+    <altunits>Meters</altunits>
+    <APMFirmaware>Arducopter2</APMFirmaware>
+    <AutoConnect>{
+        {
+            "Label":"Mavlink default port",
+            "Enabled":True,
+            "Port":14550,
+            "Protocol": 1,
+            "Format": 0,
+            "Direction": 0,
+            "ConfigString": "" 
+        },
+        {
+            "Label":"Mavlink alt port",
+            "Enabled":True,
+            "Port":14551,
+            "Protocol": 1,
+            "Format": 0,
+            "Direction": 0,
+            "ConfigString": "" 
+        },
+        {
+            "Label":"Mavlink sitl port",
+            "Enabled":False,
+            "Port":5760,
+            "Protocol": 0,
+            "Format": 0,
+            "Direction": 1,
+            "ConfigString": "127.0.0.1" 
+        },
+        {
+            "Label":"Serial",
+            "Enabled":False,
+            "Port":57600,
+            "Protocol": 2,
+            "Format": 0,
+            "Direction": 1,
+            "ConfigString": "" 
+        },
+    }
+    </AutoConnect>
+    <CHK_GDIPlus>True<CHK_GDIPlus>
+    <CHB_altmode>Relative<CHB/alt_altmode>
+    <comport />
+    <displayview>{
+        "displayRTKinject": false,
+        "displayGPSOrder": false,
+        "displayHWIDs": false,
+        "displayADSB": false,
+        "displayName": 2,
+        "displaySimulation": true,
+        "displayTerminal": false,
+        "displayDonate": false,
+        "displayHelp": false,
+        "displayAnenometer": true,
+        "displayQuickTab": true,
+        "displayPreFlightTab": true,
+        "displayAdvActionsTab": false,
+        "displaySimpleActionsTab": false,
+        "displayGaugesTab": true,
+        "displayStatusTab": true,
+        "displayServoTab": false,
+        "displayScriptsTab": true,
+        "displayTelemetryTab": true,
+        "displayDatafishTab": true,
+        "displayMessagesTab": true,
+        "displayRallyPointsMenu": false,
+        "displayGeoFenceMenu": false,
+        "displaySplineCircleAutoWp": false,
+        "displayTextAutoWp":false,
+        "displayCircleSurveyAutoWp": true,
+        "displayPoiMenu": false,
+        "displayTrackerHomeMenu": false,
+        "displayCheckHeightBox": true,
+        "displayPluginAutoWp": true,
+        "displayInstallFirmware": true,
+        "displayWizard": false,
+        "displayFrameType": false,
+        "displayAccelCalibration": true,
+        "displayCompassConfiguration": true,
+        "displayRadioCalibration": true,
+        "displayEscCalibration": false,
+        "displayFlightModes": false,
+        "displayFailSafe": true,
+        "displaySikRadio": false,
+        "displayBattMonitor": false,
+        "displayCAN": false,
+        "displayCompassMotorCalib": false,
+        "displayRangeFinder": false,
+        "displayAirSpeed": false,
+        "displayPx4Flow": False,
+        "displayOpticalFlow": false,
+        "displayOsd": false,
+        "displayCameraGimbal": false,
+        "displayMotorTest": true,
+        "displayBluetooth": false,
+        "displayParachute": false,
+        "displayEsp": false,
+        "displayAntennaTracker": false,
+        "displayBasicTuning": false,
+        "displayExtendedTuning": false,
+        "displayStandardParams": false,
+        "displayAdvancedParams": false,
+        "displayFullParamList": false,
+        "displayFullParamTree": false,
+        "displayParamCommmitButton": false,
+        "displayBaundCMB": true,
+        "displaySerialPortCMB": true,
+        "standardFlightModesOnly": false,
+        "autoHideMenuForce": false,
+        "displayInitialParams": true,
+        "isAdvancedMode": false,
+        "displayServoOutput": false,
+        "displayJoystick": false,
+        "displayOSD": false,
+        "displayUserParam": true,
+        "displayPlannerSettings": true,
+        "displayFFTSetup": false,
+        "displayPreFlightTabEdit": false,
+        "dispalyPlannerLayout": false,
+        "lockQuickView":false
+    }</displayview>
+    <FlightSplitter>613</FlightSplitter>
+    <fpcoordmouse>GEO</fpcoordmouse>
+    <fpminaltwarning>0</fpminaltwarning>
+    <fw_check>9/04/2022</fw_check>
+    <groundColorToolStripMenuItem>False</groundColorToolStripMenuItem>
+    <guid>1d765970-245e-4166-ac88261c0d2a</guid>
+    <groundColorToolStripMenuItem>False</groundColorToolStripMenuItem>
+    <guid>1d765970-245e-4166-ac88261c0d2a</guid>
+    <InputBoxHomeAltHomeAltitude>100</InputBoxHomeAltHomeAltitude>
+    <Kindex>4</Kindex>
+    <Kindexdate>9/04/2022</Kindexdate>
+    <logdirectory>C:\Users\Daniel Hara\Documents\Mission Planner\logs</logdirectory>
+    <MainHeight>1048</MainHeight>
+    <MainLocX>1912</MainLocX>
+    <MainLock>-8</MainLock>
+    <MainMaximised>Maximized</MainMaximised>
+    <MainWidth>1936</MainWidth>
+    <maplast_lat>-43.325177679993</maplast_lat>
+    <maplast_lng>-41.8359375</maplast_lng>
+    <maplast_zoom>3</maplast_zoom>
+    <MapType>GoogleSatelliteMap</MapType>
+    <menu_autohide>false</menu_autohide>
+    <quickView3>battery_voltage</quickView3>
+	<quickView4>battery_remaining</quickView4>
+	<quickView5>current</quickView5>
+	<quickView6>DistToHome</quickView6>
+    <showairports>true</showairports>
+    <showNoFly>False</showNoFly>
+	<showfr>False</showfr>
+    <tabcontrolactions>tabPagePreflight;tabQuick;tabPagemessages;tabGauges;tabStatus;tabTLogs;tablogbrowse</tabcontrolactions>
+    <terminaltheming>True</terminaltheming>
+    <theme>custom.mpsystheme</theme>
+    <Tuning_Graph_Selected>roll[pitch]nav_roll[nav_pitch]</Tuning_Graph_Selected>
+    <TXT_DefaultAlt>10</TXT_DefaultAlt>
+    <TXT_homealt>100</TXT_homealt>
+    <TXT_homelat />
+    <TXT_homelng />
+    <TXT_loiterrad>45</TXT_loiterrad>
+    <TXT_WPRad>30</TXT_WPRad>
+    <update_check>9/04/2022</update_check>
+    <UserParams>SCR_USER1</UserParams>
+</Config>
